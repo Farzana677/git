@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function contactus() {
-  return <div>contactus</div>;
+  return (
+    <div>
+      contactus
+      <button>contact</button>
+    </div>
+  );
 }
