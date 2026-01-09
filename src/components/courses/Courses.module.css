@@ -1,0 +1,96 @@
+.row {
+  height: 100%;
+}
+
+.content {
+  padding: 3rem 2rem 0 3rem;
+}
+.content p {
+  color: #d39c41;
+}
+.imageContainer {
+  max-width: 100%;
+}
+.imageContainer {
+  display: flex;
+  justify-content: end;
+}
+.man {
+  height: 100%;
+}
+.imageCenter {
+  position: absolute;
+  bottom: 0;
+  height: 90%;
+  right: 25%;
+}
+.imageQuran {
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+}
+.quran {
+  position: absolute;
+  top: 05%;
+  right: 45%;
+  height: 50px;
+}
+.topLeftImage {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  height: 36%;
+}
+.topRightImage {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  height: 36%;
+}
+.childImage {
+  position: absolute;
+  bottom: 0;
+  left: 4%;
+}
+.middleImage {
+  position: absolute;
+  top: 32%;
+  left: 37%;
+}
+
+.courseBtn {
+  position: relative;
+  background-color: #075e54;
+  border-radius: 0.25rem;
+  padding: 0.5rem 3.5rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+  margin-bottom: 30%;
+}
+
+.courseBtn::before {
+  content: "";
+  background-color: #ffb607;
+  border-radius: 0 133px 133px 0%;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 300ms ease-in-out;
+  display: inline-block;
+}
+
+.courseBtn:hover::before {
+  width: 100%;
+  color: #fff;
+}
+.courseBtn:hover {
+  background-color: #ffb607;
+  border: none;
+}
